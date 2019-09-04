@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+#mycalculator #top_display #display {
+    background-color: #FF7C64;
+    color: #F8F8F8;
+    width: 400px;
+    height: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: right;
+    font-size: 40px;
+    overflow: hidden;
+    font-family: nova-mono;
+    font-style: normal;
+    font-weight: 400;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#mycalculator #numbers {
+    background-color: #414141;
+    width: 400px;
+    height: 235px;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+.button {
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin: 4px;
+    font-family: "nova-mono";
+    font-size: 20px;
+    text-align: right;
+    background-color: white;
+    border-radius: 5px;
+}
+#numbers .inputRow .operator {
+    border: none;
+    width: 56px;
+    height: 50px;
+    margin: 4px;
+    float: right;
+    font-family: "nova-mono";
+    font-size: 20px;
+    background-color: #FFAA9B;
+    font-weight: 350;
+	border-radius: 5px;
+}
+#numbers .inputRow2 .operator {
+    border: none;
+    width: 56px;
+    height: 50px;
+    margin: 4px;
+    float: right;
+    font-family: "nova-mono";
+    font-size: 20px;
+    background-color: #FFAA9B;
+    font-weight: 350;
+	border-radius: 5px;
+}
+#numbers .inputRow3 .operator {
+    border: none;
+    width: 56px;
+    height: 50px;
+    margin: 4px;
+    float: right;
+    font-family: "nova-mono";
+    font-size: 20px;
+    background-color: #FFAA9B;
+    font-weight: 350;
+	border-radius: 5px;
+}
+#numbers .inputRow4 .operator {
+	border: none;
+    width: 100px;
+    height: 50px;
+    margin: 4px;
+    font-family: "nova-mono";
+    font-size: 20px;
+    text-align: right;
+	background-color: #AEAEAE;
+	border-radius: 5px;
+}
+
+
+#numbers .inputRow5 .operator {
+    border: none;
+    width: 56px;
+    height: 50px;
+    margin: 4px;
+    float: right;
+    font-family: "nova-mono";
+    font-size: 20px;
+    background-color: #FFAA9B;
+    font-weight: 350;
+	border-radius: 5px;
+}
+#numbers .inputRow4 #clear {
+	border: none;
+    width: 100px;
+    height: 50px;
+    margin: 4px;
+    font-family: "nova-mono";
+    font-size: 20px;
+    text-align: right;
+	background-color: #AEAEAE;
+	border-radius: 5px;
+}
