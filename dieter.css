@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+	margin: 20px;
+}
+
+body p {
+    font-size: 20px;
+    font-family: "helvetica";
+    font-weight: bold;
+	
+}
+body p1 {
+    font-size: 20px;
+    font-family: "helvetica";
+    font-weight: lighter;	
+}
+#title {
+    font-size: 90px;
+    font-family: "helvetica";
+    font-weight: lighter;
+    text-align: right;	
+}
+
+#sub-title{
+	font-size: 35px;
+    font-family: "helvetica";
+    font-weight: lighter;
+    text-align: right;	
+}
