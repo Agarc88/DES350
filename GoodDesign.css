@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+.firstsquare {
+    position: fixed;
+  	margin-left: 80%;
+	right: 2%;
+    background: #fc1753;
+    opacity: 0.3;
+    width: 38%;
+    height: 100%;
+		}
+
+#title {
+    font-size: 6.5em;
+    font-family: "helvetica";
+    font-weight: bold;
+    text-align: left;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+
+#sub-title{
+    font-size: 3.3em;
+    font-family: "helvetica";
+    font-weight: lighter;
+    text-align: left;
+	margin-top: -1.7%;
+    margin-bottom: 30%;
+	margin-left: 5%;
+}
+
+.number{
+	display: inline-block;
+	 text-align: center;
+    width: 100px;
+    height: 130px;
+    font-size: 10em;
+	font-family: "helvetica";
+	margin-left: 55%;
+	margin-right: -3%;
+	}
+
+.essay{
+    display: inline-block;
+    line-height: 205px;
+   width: 28%;
+    height: 38%;
+    margin-left: 2%;
+	 border-style: dotted;
+    border-width: thin;
+	text-align: left;
+	
+	
+		}
+
+.prompt
+{
+    line-height: 205px;
+    width: 16%;
+    height: 16%;
+	margin-top: -6%;
+    margin-left: 42.8%;
+	margin-right: 2.5%;
+	 border-style: dotted;
+    border-width: thin;
+	text-align: right;
+}
+
+.number2{
+	display: inline-block;
+	 text-align: center;
+    width: 100px;
+    height: 130px;
+    font-size: 10em;
+	font-family: "helvetica";
+	margin-left: 53%;
+	margin-right: -1%;
+	}
+
+.essay2{
+    display: inline-block;
+    line-height: 205px;
+   width: 16%;
+    height: 16%;
+    margin-left: 2%;
+	 border-style: dotted;
+    border-width: thin;
+	text-align: left;
+	
+	
+		}
+
+.prompt2{
+    line-height: 205px;
+	 width: 28%;
+    height: 38%;
+	margin-top: -5.8%;
+    margin-left: 30.75%;
+	margin-right: 2.5%;
+	 border-style: dotted;
+    border-width: thin;
+	text-align: right;
+	
+		}
+
+.number3{
+	display: inline-block;
+	 text-align: center;
+    width: 100px;
+    height: 130px;
+    font-size: 10em;
+	font-family: "helvetica";
+	margin-left: 53%;
+	margin-right: -1%;
+	}
+
+.essay3{
+    display: inline-block;
+    line-height: 205px;
+   width: 28%;
+    height: 38%;
+    margin-left: 2%;
+	 border-style: dotted;
+    border-width: thin;
+	text-align: left;
+	
+	
+		}
+
+.prompt3{
+    line-height: 205px;
+    width: 16%;
+    height: 16%;
+	margin-top: -5.8%;
+    margin-left: 42.8%;
+	margin-right: 2.5%;
+	 border-style: dotted;
+    border-width: thin;
+	text-align: right;
+	
+		}
+
