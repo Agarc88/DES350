@@ -59,7 +59,7 @@ body{
 	padding-right: 6%;
 	padding-top: 4.3%;
 	font-family: "helvetica";
-	font-size: 1.1vw;
+	font-size: 15px;
 	
 
 }
@@ -112,9 +112,7 @@ body{
 	padding-right: 6%;
 	padding-top: 4.3%;
 	font-family: "helvetica";
-	font-size: 1.1vw;
-	
-
+	font-size: 15px;
 }
 
 .number3 {
@@ -147,9 +145,7 @@ body{
 	padding-right: 6%;
 	padding-top: 4.3%;
 	font-family: "helvetica";
-	font-size: 1.1vw;
-	
-
+	font-size: 15px;
 }
 
 
@@ -183,9 +179,7 @@ body{
 	padding-right: 6%;
 	padding-top: 4.3%;
 	font-family: "helvetica";
-	font-size: 1.1vw;
-	
-
+	font-size: 15px;
 }
 
 .number6 {
@@ -220,7 +214,7 @@ body{
 	padding-right: 6%;
 	padding-top: 4.3%;
 	font-family: "helvetica";
-	font-size: 1.1vw;
+	font-size: 15px;
 	
 
 }
@@ -256,7 +250,7 @@ body{
 	padding-right: 6%;
 	padding-top: 4.3%;
 	font-family: "helvetica";
-	font-size: 1.1vw;
+	font-size: 15px;
 	
 
 }
@@ -291,7 +285,7 @@ body{
 	padding-right: 6%;
 	padding-top: 4.3%;
 	font-family: "helvetica";
-	font-size: 1.1vw;
+	font-size: 15px;
 	
 
 }
@@ -328,9 +322,96 @@ body{
 	padding-right: 6%;
 	padding-top: 4.3%;
 	font-family: "helvetica";
-	font-size: 1.1vw;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 700px){
+	
+	.essayright{
+	width: 40%;
+	float: left;
+	text-align: right;
+	padding-left: 9.2%;
+	padding-right: 6%;
+	padding-top: 4.3%;
+	font-family: "helvetica";
+	font-size: 18px;
+}
+	
+	.column2of2{
+	float: right;
+	width: 40%;
+	padding-right: 6%;
+	padding-top: 4.3%;
+	font-family: "helvetica";
+	font-size: 15px;
+	
+
+}
+	
+.essay3{
+	float: right;
+	width: 40%;
+	padding-right: 6%;
+	padding-top: 4.3%;
+	font-family: "helvetica";
+	font-size: 15px;
+}	
+	
+.essay5{
+	float: right;
+	width: 40%;
+	padding-right: 6%;
+	padding-top: 4.3%;
+	font-family: "helvetica";
+	font-size: 15px;
+}	
+	
+.essay6{
+	width: 40%;
+	float: left;
+	text-align: right;
+	padding-left: 9.2%;
+	padding-right: 6%;
+	padding-top: 4.3%;
+	font-family: "helvetica";
+	font-size: 15px;
 	
 
 }
 
+.essay7{
+	float: right;
+	width: 40%;
+	padding-right: 6%;
+	padding-top: 4.3%;
+	font-family: "helvetica";
+	font-size: 15px;
+	
+
+}	
+
+.essay9{
+	float: right;
+	width: 40%;
+	padding-right: 6%;
+	padding-top: 4.3%;
+	font-family: "helvetica";
+	font-size: 15px;
+	
+
+}
+
+.essay10{
+	width: 40%;
+	float: left;
+	text-align: right;
+	padding-left: 9.2%;
+	padding-right: 6%;
+	padding-top: 4.3%;
+	font-family: "helvetica";
+	font-size: 15px;
+}
+	
+}
 	
