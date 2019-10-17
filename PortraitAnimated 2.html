@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	<div class="face">
+	<div class="cara">
 		
 	<div class="shape1"></div>
 	<div class="shape2"></div>
@@ -91,6 +91,8 @@
 		<div class="lashes"></div>
 <div class="lashes2"></div>
 		<div class="nose"></div>
+		<div class="cheek1"></div>
+		<div class="cheek2"></div>
 		
 		
 </div>
@@ -99,8 +101,10 @@
 		
 		body{
 			background-color: #5AB7FF;
+			
 		}
 	
+		
 		
 		.shape1{
 			position: absolute;
@@ -471,13 +475,13 @@
 			position: absolute;
    	 width: 106px;
     height: 106px;
-	top: 310px;
-	left: 415px;	
+	top: 305px;
+	left: 420px;	
     background-color: #FBB79D;
     border-radius: 106px / 106px;
 			
 			animation-name: nose;
-		animation-duration: 1s;
+		animation-duration: 2s;
 		animation-delay: 1s;
 		animation-iteration-count: infinite;
 		
@@ -488,7 +492,7 @@
 	
 
 	100% {
-		left:425px;
+		left:420px;
 		top:310px;
 		}
 		}
@@ -527,10 +531,27 @@
 	left: 535px;	
     background-color: #ffd2c2;
     border-radius: 60px / 90px;
-			transform: rotate(-39deg)
+			transform: rotate(-39deg);
 			
-				
+			animation-name: smile;
+		animation-duration: 2s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		animation-timing-function: cubic-bezier(0.25,0.1,0.25,1.9);
 		}
+		
+		@-webkit-keyframes smile{
+	
+	
+
+	100% {
+		left:537px;
+		top:340px;
+		}
+		}
+		
+				
+		
 		
 		.undereyes2{
 				position: absolute;
@@ -551,7 +572,23 @@
 	left: 340px;	
     background-color: #ffd2c2;
     border-radius: 60px / 90px;
-			transform: rotate(39deg)
+			transform: rotate(39deg);
+				
+				animation-name: smile2;
+		animation-duration: 2s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		animation-timing-function: cubic-bezier(0.25,0.1,0.25,1.9);
+		}
+		
+		@-webkit-keyframes smile2{
+	
+	
+
+	100% {
+		left:338px;
+		top:340px;
+		}
 			
 		}
 		.shape33{
@@ -767,10 +804,64 @@
     transform: rotate(216deg);
     }
 		
+		.cheek1 {
+	position: absolute;
+   	 width: 60px;
+    height: 90px;
+	top: 285px;
+	left: 535px;	
+    background-color: #ffd2c2;
+    border-radius: 60px / 90px;
+			transform: rotate(90deg);
+			
+				animation-name: cheek1;
+		animation-duration: 2s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		
+		}
+		
+		@-webkit-keyframes cheek1{
+	
+	
+
+	100% {
+		left:535px;
+		top:275px;
+		}
+		}
+		
+		
+		.cheek2{
+		position: absolute;
+   	 width: 60px;
+    height: 90px;
+	top: 285px;
+	left: 350px;	
+    background-color: #ffd2c2;
+    border-radius: 60px / 90px;
+			transform: rotate(90deg);
+			
+				animation-name: cheek2;
+		animation-duration: 2s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		
+		}
+		
+		@-webkit-keyframes cheek2{
+	
+	
+
+	100% {
+		left:350px;
+		top:275px;
+		}
+		}
 		
 	
-    }
-		}
+    
+		
 		
 		
 		
