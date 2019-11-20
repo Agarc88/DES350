@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Limelight&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	
+	 
+	 <div class="sky rellax" data-rellax-speed="0"><img src="sky.svg" alt=""/></div>
+	 <div class="cloud1 rellax" data-rellax-speed="1"><img src="clouds1-01.svg" alt=""/></div>
+	 <div class="cloud2 rellax" data-rellax-speed="3"><img src="clouds2-01.svg" width="100%" alt=""/></div>
+	<div class="trees1 rellax" data-rellax-speed="3"><img src="trees1.svg" alt=""/></div>
+	<div class="trees2 rellax" data-rellax-speed="2"><img src="trees2.svg" alt=""/></div>
+	 <div class="Mountain1 rellax" data-rellax-speed="5"><img src="Mountain1.svg" alt=""/></div>
+	<div class="Mountain2 rellax" data-rellax-speed="8"><img src="Mountain2.svg" alt=""/></div>
+	
+	<div class="vmsnp">
+		
+	<div class="visit rellax" data-rellax-speed="3.2">Visit</div>
+	<div class="mb rellax" data-rellax-speed="3">Mesa Verde</div>
+	<div class="natpark rellax" data-rellax-speed="3.2">National Park</div>
+		
+	</div>
+
+		
+	
+	  
+	   <!-- javascript by Dixon and Moe: https://dixonandmoe.com/rellax/ -->
+  <script type="text/javascript" src="rellax.js"></script>
+  <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>
+	
+</body>
+	
+	<style>
+		
+		body {
+			height: 100%;
+			background: #181413;
+			background-repeat: no-repeat;
+			font-family: Helvetica, Arial, sans-serif;
+			line-height: 1.4em;
+			margin-left: 0%;
+			margin-right: 0%;
+			margin-top: 0%;
+			padding: 0px;
+		}
+		
+		.vmsnp{
+			position: fixed;
+			margin-top: 18%;
+			margin-left: 35%;
+			width: 800px;
+			z-index: 1;
+			opacity: 0.7
+		
+			
+		}
+		
+		.visit{
+			position: absolute;
+			color: white;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 2em;
+			padding-top: 0%
+		}
+		.mb{
+			position: absolute;
+			color: white;
+			font-family: 'Limelight', cursive;
+			font-size: 8.2em;
+			padding-top: 11%;
+			text-align: right;
+			float: right;
+			
+			
+		}
+		
+		.natpark{
+    position: static;
+    color: white;
+    font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 2em;
+    text-align: right;
+	float: right;
+	padding-top:21% 
+			
+		}
+		
+		.sky{
+			  position: absolute;
+   				width: 100%;
+			z-index: 0;
+			
+		}
+		
+		
+		
+		.cloud1 {
+    position: absolute;
+    width: 100%;
+    opacity: 0.12;
+			z-index: 2;
+		}
+		
+		.cloud2{
+			position: absolute;
+			width: 100%;
+			opacity: 0.12;
+			z-index: 1;
+		
+		}
+		
+		.trees1{
+			position: absolute;
+			width: 30%;
+			margin-top: 30%;
+			z-index: 3;
+			}
+		
+		.trees2{
+			width: 40%;
+			margin-top: 43%;
+			z-index: 3;
+			float: right;
+			}
+		
+		.Mountain1{
+			position: absolute;
+			width: 100%;
+			margin-top: 37%;
+			z-index: 4;
+			
+		}
+		
+			.Mountain2
+		{
+			position: absolute;
+			width: 100%;
+			margin-top: 54%;
+			z-index: 5;
+			
+		}
+	
+	</style>
+</html>
