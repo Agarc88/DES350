@@ -22,13 +22,18 @@
 	 <div class="Mountain1 rellax" data-rellax-speed="5"><img src="Mountain1.svg" alt=""/></div>
 	<div class="Mountain2 rellax" data-rellax-speed="16"><img src="Mountain2.svg" alt=""/></div>
 	
-	<div class="vmsnp">
+	<div class="vmsnp rellax" data-rellax-speed="4">
 		
-	<div class="visit rellax" data-rellax-speed="3.2">Visit</div>
-	<div class="mb rellax" data-rellax-speed="3">Mesa Verde</div>
-	<div class="natpark rellax" data-rellax-speed="3.2">National Park</div>
+	 <span class="visit rellax" data-rellax-speed="3.2">Visit<br></span> <span class="mb rellax" data-rellax-speed="5">Mesa Verde<br></span> <span class="natpark rellax" data-rellax-speed="3.2">National Park</span> </div>
+	
+	<section class="des rellax" data-rellax-speed="4">
 		
-	</div>
+	 <span class="about rellax" data-rellax-speed="13.5">About<br></span> <span class="description rellax" data-rellax-speed="13">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hen<br></span></section>
+	
 
 		
 	
@@ -54,52 +59,76 @@
 			background: #181413;
 			background-repeat: no-repeat;
 			font-family: Helvetica, Arial, sans-serif;
-			line-height: 1.4em;
 			margin-left: 0%;
 			margin-right: 0%;
 			margin-top: 0%;
 			padding: 0px;
 		}
 		
+	
 		.vmsnp{
+			padding-top: 10%;
+			opacity: 0.6;
 			position: fixed;
-			margin-top: 18%;
-			margin-left: 35%;
-			width: 51vw;
-			z-index: 1;
-			opacity: 0.7
-		
+			padding-left: 44%;
+			padding-right: 4%;
+			text-align: right;
+			
 			
 		}
 		
 		.visit{
-			position: absolute;
 			color: white;
 			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-			font-size: 2vw;
-			padding-top: 0%
+			font-size: 2em;
+			z-index: 1;
+			
+			
 		}
 		.mb{
-			position: absolute;
-			color: white;
-			font-family: 'Limelight', cursive;
-			font-size: 8.2vw;
-			padding-top: 11%;
-			text-align: right;
-			float: right;
-			
-			
+    color: white;
+    font-family: 'Limelight', cursive;
+    font-size: 7.5em;
+    padding-top: 48%;
+    z-index: 1;
+    line-height: .9em;
 		}
 		
 		.natpark{
+	
     color: white;
     font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-    font-size: 2vw;
-    text-align: right;
-	float: right;
-	padding-top:21% 
-			
+    font-size: 2em;
+    padding-top: 0%;
+    z-index: 1;
+	
+			<p>This is the content for Layout P Tag</p>}
+		
+		.des{margin-top: 59%;
+			width: 45%;
+			padding-left: 5%;
+			position: absolute;
+			overflow: hidden;
+			z-index: 6;
+			color: white;
+			opacity: 0.6;
 		}
+		
+		.about{
+			color: white;
+    font-family: 'Limelight', cursive;
+    font-size: 4em;
+    z-index: 1;
+    line-height: 1.5em;
+		}
+		.description{
+		color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 1em;
+    z-index: 1;
+    line-height: 1.3em;	
+		}
+		
 		
 		.sky{
 			  position: absolute;
@@ -157,6 +186,53 @@
 		}
 		
 		
+		@media only screen and (max-width: 700px) {
+			
+			.vmsnp{
+			padding-top: 5%;
+			opacity: 0.7;
+			position: fixed;
+			padding-left: 39%;
+			padding-right: 4%;
+			line-height: 1em;
+			text-align: right;
+		}
+		
+			
+		.visit{
+			color: white;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 1.5em;
+			z-index: 1;
+			
+	
+			
+			
+			
+		}
+		.mb{
+    color: white;
+    font-family: 'Limelight', cursive;
+    font-size: 6em;
+    padding-top: 48%;
+    line-height: .8em;
+    z-index: 1;
+    
+		}
+		
+		.natpark{
+    		color: white;
+   			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    		font-size: 1.5em;
+    		padding-top:0%;
+			z-index: 1;
+			padding-left: 0%;
+			padding-right: 1.6%;
+			line-height: 1.5em;
+		}
+		
+ 
+
 	
 	</style>
 </html>
